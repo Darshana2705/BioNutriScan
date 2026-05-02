@@ -40,6 +40,8 @@ The project is divided into two main parts: a frontend and a backend.
     GEMINI_API_KEY=your_gemini_api_key
     GEMINI_MODEL=gemini-2.5-pro
     ```
+6.  Add a `vitamin_deficiency_model.h5` file into the  directory inside the `Backend/Model` directory.
+7.  Download the `vitamin_deficiency_model.h5` file from [this link](https://drive.google.com/file/d/1kiiOUO0YCtNagERWJonEjn7F5XzGlowD/view?usp=sharing) and place it in the `Backend/Model` directory.
 
 ### Frontend
 
