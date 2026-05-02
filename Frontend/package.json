@@ -1,0 +1,44 @@
+{
+  "name": "vitamin-deficiency",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "backend": "cd ../Backend && python app.py",
+    "frontend": "vite",
+    "dev": "npm-run-all --parallel backend frontend",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.2",
+    "@types/firebase": "^2.4.32",
+    "axios": "^1.13.2",
+    "face-api.js": "^0.22.2",
+    "firebase": "^12.10.0",
+    "jspdf": "^4.0.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-markdown": "^10.1.0",
+    "sweetalert2": "^11.23.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}

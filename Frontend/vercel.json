@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/(api|predict|feedback|get_feedback)/:path*",
+      "destination": "https://your-backend-url.vercel.app/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
